@@ -1,12 +1,28 @@
 body{
    display:flex;
 }
+a{
+    color: white;
+}
+#logo{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 75%;
+    width:calc(35vw);
+    height:150px;
+    font-size:90px;
+    padding:10px 0 10px 0;
+    margin-top: calc(10vh);
+}
+
 #left{
     background-image: url(michelle-mcewen-9y3oGBRzu4A-unsplash.jpg);
     background-size: cover;
     background-repeat:no-repeat;
     height:calc(100vh);
-   background-position: 40% 50%;
+    background-position: 40% 50%;
+    width:calc(35vw);
 }
 @font-face{
     font-family:Norse-Bold;
@@ -18,14 +34,11 @@ body{
     margin:auto 0;
     
 }
-#logo{
-    display:flex;
-    justify-content: center;
-    background-color: black;
-    opacity: 75%;
-    width:calc(35vw);
-    height:150px;
-    font-size:90px;
-    padding:10px;
-    margin-top: calc(10vh);
+
+#photoCredit{
+    text-align: center;
+    color:white;
+    width:inherit;
+    position:absolute;
+    bottom:8px;
 }
