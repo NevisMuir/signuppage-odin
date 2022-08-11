@@ -1,15 +1,16 @@
 body{
    display:flex;
+   margin:0px;
 }
 a{
     color: white;
 }
+/*logo seems to load before rest of page*/
 #logo{
     display:flex;
     justify-content: center;
     background-color: black;
     opacity: 75%;
-    width:calc(35vw);
     height:150px;
     font-size:90px;
     padding:10px 0 10px 0;
