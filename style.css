@@ -43,3 +43,7 @@ a{
     position:absolute;
     bottom:8px;
 }
+.inputRow{
+    display:flex;
+    flex-direction: column;
+}
