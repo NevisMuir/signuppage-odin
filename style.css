@@ -1,5 +1,26 @@
+@font-face{
+    font-family:Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+@font-face{
+    font-family:Roboto;
+    src: url(Roboto-Light.ttf);
+}
+#logo>p{
+    font-family:Norse-Bold;
+    color:white;
+    margin:auto 0;
+    
+}
 label{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Roboto;
+    font-weight:500;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    width:calc(50vw);
+    margin:1% 5%;
 }
 body{
    display:flex;
@@ -13,6 +34,7 @@ body{
     padding-top: calc(.5vh);
     padding-bottom: calc(.5vh);
 }
+
 a{
     color: white;
 }
@@ -47,16 +69,8 @@ a{
     min-width:250px;
     
 }
-@font-face{
-    font-family:Norse-Bold;
-    src: url(Norse-Bold.otf)
-}
-#logo>p{
-    font-family:Norse-Bold;
-    color:white;
-    margin:auto 0;
-    
-}
+
+
 
 
 #photoCredit{
@@ -70,12 +84,7 @@ input{
     font-size: 1.1rem;
     width:calc(20vw);
 }
-form{
-    display: flex;
-    flex-wrap: wrap;
-    width:calc(50vw);
-    margin:1% 5%;
-}
+
 .inputRow{
     display:flex;
     flex-direction: column;
