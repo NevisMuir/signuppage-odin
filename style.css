@@ -6,12 +6,17 @@
     font-family:Roboto;
     src: url(Roboto-Light.ttf);
 }
+@font-face{
+    font-family: Open-Sans;
+    src: url(OpenSans-Bold.ttf)
+}
 #logo>p{
     font-family:Norse-Bold;
     color:white;
     margin:auto 0;
     
 }
+
 label{
     font-family:Roboto;
     font-weight:500;
@@ -21,6 +26,24 @@ form{
     flex-wrap: wrap;
     width:calc(50vw);
     margin:1% 5%;
+}
+button{
+    font-family:Open-Sans;
+    font-size:1.25rem;
+    font-weight: 500;
+    background-color: darkolivegreen;
+    color: white;
+    padding:20px 30px;
+    border-radius: 15px;
+    border-width: 0;
+    margin:calc(5vh) 0 0 calc(3vw) ;
+}
+#logintext{
+    font-family: inherit;
+    font-size:1rem;
+    margin-left: 5%;
+    margin-top:1%;
+    font-weight:550;
 }
 body{
    display:flex;
@@ -36,7 +59,8 @@ body{
 }
 
 a{
-    color: white;
+    color:darkolivegreen;
+    text-decoration:none;
 }
 /*logo seems to load before rest of page*/
 #logo{
@@ -50,6 +74,7 @@ a{
     margin-top: calc(10vh);
 
 }
+
 .hero p{
     margin-bottom: 0;
     margin-top: calc(2vh);
@@ -88,7 +113,7 @@ input{
 .inputRow{
     display:flex;
     flex-direction: column;
-    margin: 10px 10px 20px 0px;
+    margin: 10px 5% 20px 0px;
 }
 #right{
     width:calc(65vw);
