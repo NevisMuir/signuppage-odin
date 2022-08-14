@@ -34,7 +34,6 @@ a{
     background-position: 40% 50%;
     width:calc(35vw);
     min-width:250px;
-    position:sticky;
 }
 @font-face{
     font-family:Norse-Bold;
