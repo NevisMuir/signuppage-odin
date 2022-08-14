@@ -6,7 +6,13 @@ body{
    margin:0px;
    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+.container{
+    background-color:white;
+    box-shadow: 0 5px 5px lightgrey;
+    margin-top: calc(3.5vh);
+    padding-top: calc(.5vh);
+    padding-bottom: calc(.5vh);
+}
 a{
     color: white;
 }
@@ -24,6 +30,11 @@ a{
 }
 .hero p{
     margin-bottom: 0;
+    margin-top: calc(2vh);
+}
+.container p{
+    padding-top: 15px;
+    margin-top: 15px;
 }
 #left{
     background-image: url(michelle-mcewen-9y3oGBRzu4A-unsplash.jpg);
@@ -34,6 +45,7 @@ a{
     background-position: 40% 50%;
     width:calc(35vw);
     min-width:250px;
+    
 }
 @font-face{
     font-family:Norse-Bold;
@@ -46,6 +58,7 @@ a{
     
 }
 
+
 #photoCredit{
     text-align: center;
     color:white;
@@ -53,14 +66,24 @@ a{
     position:absolute;
     bottom:8px;
 }
+input{
+    font-size: 1.1rem;
+    width:calc(20vw);
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    width:calc(50vw);
+    margin:1% 5%;
+}
 .inputRow{
     display:flex;
     flex-direction: column;
-    margin: 20px 10px 10px 0px;
+    margin: 10px 10px 20px 0px;
 }
 #right{
     width:calc(65vw);
-
+    background-color: whitesmoke;
 }
 #right p{
     font-size:1.5rem;
@@ -68,8 +91,9 @@ a{
     margin-left:5%;
 }
 .hero{
-    margin:clamp(10vh, 10vh,200px) auto 10px 0;
+    margin:clamp(10vh, 10vh,200px) auto 0 0;
     max-width: 850px;
     display:flex;
     flex-direction: column;
+    background-color: whitesmoke;
 }
