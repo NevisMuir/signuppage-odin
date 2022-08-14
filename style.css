@@ -1,6 +1,7 @@
 body{
    display:flex;
    margin:0px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 a{
     color: white;
@@ -24,6 +25,7 @@ a{
     height:calc(100vh);
     background-position: 40% 50%;
     width:calc(35vw);
+    min-width:250px;
 }
 @font-face{
     font-family:Norse-Bold;
@@ -46,4 +48,17 @@ a{
 .inputRow{
     display:flex;
     flex-direction: column;
+    margin: 20px 10px 10px 0px;
+}
+#right{
+    width:calc(65vw);
+}
+.hero{
+    margin:200px auto 10px 5%;
+    font-size:1.5rem;
+    font-weight:600;
+    max-width: 850px;
+    display:flex;
+    flex-direction: column;
+    
 }
