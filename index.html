@@ -47,7 +47,7 @@
                 </div>
                 <div class="inputRow">
                     <label for="user_password">Password *</label>
-                    <input type="password" id="user_password" name="user_password" required>
+                    <input type="password" id="user_password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Please enter a password between 5 and 22 characters, containing at least one capital letter, lowercase letter, and number/symbol"  name="user_password" minlength="5" maxlength="22" required>
                 </div>
                 <div class="inputRow">
                     <label for="confirm_password">Confirm Password *</label>
@@ -56,13 +56,11 @@
                 
             </form>
         </div>
-        <button>Create Account</button>
-        <div id="logintext">Already have an account? <a href="#">Log in</a></div>
-        
-
-        
+        <button type="submit">Create Account</button>
+        <div id="logintext">Already have an account? <a href="#head">Log in</a></div>
     </div>        
 </body>
+<script src="script.js"></script>
 </html>
 
 
