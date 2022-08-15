@@ -28,7 +28,7 @@
         </div>
         <div class="container">
             <p>Let's do this!</p>
-            <form action="example.com/path" method="post">
+            <form id="form1" action="example.com/path" method="post">
                 <div class="inputRow">
                     <label for="firstName">First Name</label>
                     <input type="text" id="firstName" name="first_name">
@@ -56,8 +56,8 @@
                 
             </form>
         </div>
-        <button type="submit">Create Account</button>
-        <div id="logintext">Already have an account? <a href="#head">Log in</a></div>
+        <button type="submit" form="form1">Create Account</button>
+        <div id="logintext">Already have an account? <a>Log in</a></div>
     </div>        
 </body>
 <script src="script.js"></script>
